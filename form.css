@@ -1,0 +1,92 @@
+html{
+    background-color: rgb(245, 230, 232);
+    margin-bottom: 34px;
+   }
+
+h1{
+    text-align: center;
+    color: rgb(59, 57, 61);
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    letter-spacing: 7px;
+}
+#usname, #cpwd, #pwd, #eil{
+    margin-bottom: 23px;
+    font-size: 46px;
+    background-color: rgb(213, 198, 224);
+    color: rgb(25, 42, 81);
+    border-radius: 23px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+#sup{
+    padding:12px;
+    background-color: rgb(170, 161, 200);
+    font-family:'gill sans', sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 33px;
+    border-radius: 50%;
+   border: 2px solid rgb(106, 99, 129);
+   width: 27%;
+}
+h3{
+    font-size: 23px;
+    font-family: 'gill sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+#bold{
+    font-weight: bold;
+}
+/*/--- media queries /*/
+/*/---iphones media query/*/
+@media screen and (max-width:420px) {
+    #usname, #cpwd, #pwd, #eil{
+        font-size: 16px;
+        margin-bottom: 10px;
+        border-radius: 23px;
+    }
+    h1{
+        
+        font-size: 30px;
+        letter-spacing: 7px;
+    }
+    #bold{
+        margin-top: 10px;
+    }
+    h3{
+        font-size: 19px;
+        }
+        #sup{
+           
+            border-radius: 50%;
+           width: 50%;
+        }
+}
+/*/ ipad media query/*/
+@media screen and (max-width:1112px) {
+    #usname, #cpwd, #pwd, #eil{
+        margin-bottom: 18px;
+        font-size: 30px;
+        
+    }
+    h3{
+        font-size: 19px;
+        }
+}
+/*/---- mac screen media query/*/
+@media screen and (max-width:1184px) {
+    #usname, #cpwd, #pwd, #eil{
+        margin-bottom: 18px;
+        font-size: 30px;
+        
+    }
+    h3{
+        font-size: 19px;
+        }
+}
